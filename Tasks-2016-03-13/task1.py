@@ -9,7 +9,8 @@ class Book:
         return 'The Book {!r}, {!r}, {!r}'.format(self.title, self.year, self.genre)
 
 
-    #def __str__(self):
+    def __str__(self):
+        return 'Book is'
 
 
 
