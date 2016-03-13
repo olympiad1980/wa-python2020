@@ -15,10 +15,8 @@ class Book:
 
 
 
-# Задание: создайте несколько объектов класса Book
-# и выведите их на экран
-
-book = Book('99 Франков', 2000, 'роман')
+book = Book('99 Francs', 2000, 'novel')
 print(book.title)
 print(book.year)
 print(book.genre)
+print (book)
